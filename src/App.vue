@@ -36,7 +36,7 @@ ul {
 
 li.font-awesome {
   display: inline-block;
-
+  padding: 0 10px;
 }
 
 </style>
