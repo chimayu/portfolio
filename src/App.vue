@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <myHeader></myHeader>
+    <myHeader/>
     <router-view/>
-    <myFooter></myFooter>
+    <myFooter/>
   </div>
 </template>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -21,6 +21,7 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  letter-spacing: 0.1rem;
 }
 
 #nav a.router-link-exact-active {
