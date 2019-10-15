@@ -7,6 +7,7 @@
 </template>
 
 <style>
+
 #app {
   font-family: 'Montserrat', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,6 +15,7 @@
   text-align: center;
   color: #2c3e50;
 }
+
 #nav {
   padding: 30px;
 }
@@ -27,6 +29,16 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+ul {
+  list-style-type: none;
+}
+
+li.font-awesome {
+  display: inline-block;
+
+}
+
 </style>
 
 <script>
